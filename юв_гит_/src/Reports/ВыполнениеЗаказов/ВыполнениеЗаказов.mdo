@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f622372e-7822-4739-8d69-90e7095e07d0">
+  <producedTypes>
+    <objectType typeId="124d9ac3-93d8-4258-b277-49f8b9f0e06f" valueTypeId="6f56a90e-6118-41cf-8e3d-638a69007e93"/>
+    <managerType typeId="f4bb76b3-4ca5-4c2a-a384-7e1b50259ab1" valueTypeId="65df98c4-660a-4c2a-b473-5affa62c4430"/>
+  </producedTypes>
+  <name>ВыполнениеЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыполнениеЗаказов.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВыполнениеЗаказов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="c096628a-57cb-4a69-93e3-2623ee7433b0">
+    <name>НачальнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="48b4e2e0-5b61-4341-abab-157e1becf1ed">
+    <name>КонечнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b5b22d4a-4128-4baa-8b70-c87dccd6be9d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1c411074-2893-43c4-a7dd-abb8f8b92083">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

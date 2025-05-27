@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a96c03f-1818-44a7-86af-7a43cad86f52">
+  <producedTypes>
+    <refType typeId="21420c47-7b9d-4258-aae1-bbdd6b008698" valueTypeId="cd08f544-5bbc-4293-8753-008e1c3abc92"/>
+    <listType typeId="1070f99c-6c60-451e-8a23-ce6346ca1a44" valueTypeId="7d8d02f1-7153-40ce-b8a3-9b05eff6d323"/>
+    <managerType typeId="f8aa7f31-ba2f-428a-967a-be4d6e9108af" valueTypeId="87b3e778-444c-4a7f-9b5a-1ecac1e08fb4"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="01d2e8c1-773b-4e0b-bf06-16ea95e2a6e8">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d5e6f0b-9f8b-45d7-ab74-32f6d9de0cf6">
+    <name>Заготовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заготовка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="195fdae7-592d-4049-acc1-bcda9f5f4a30">
+    <name>ГотовоеИзделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовое изделие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

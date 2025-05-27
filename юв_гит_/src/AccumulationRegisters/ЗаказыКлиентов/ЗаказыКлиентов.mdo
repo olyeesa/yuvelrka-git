@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3c3d518-9d98-493a-886e-b4b6a7600ca5">
+  <producedTypes>
+    <selectionType typeId="d9a5a253-00c6-4cef-b096-df29aaf382b6" valueTypeId="16dacd6b-a0cd-4517-bf87-1a6f0a535efe"/>
+    <listType typeId="cc2504cc-49da-40dc-86fc-bd38b98cf36c" valueTypeId="2bd5264c-e386-4f72-98e9-967a97ceae1c"/>
+    <managerType typeId="1f858c6f-85ab-4605-b80a-1d5e55cc6ba1" valueTypeId="9f0870c3-d426-4d49-bb0d-4b1754a3aa66"/>
+    <recordSetType typeId="feb3e651-5aa0-40ef-9977-9d37676cc718" valueTypeId="5e1b3eb8-f160-4cd2-bb50-030efa78b8f6"/>
+    <recordKeyType typeId="984f418d-7cc3-48b2-bb1d-20c2dd67fe48" valueTypeId="5506dab1-ffd2-4e87-a332-310bc56c2c0e"/>
+    <recordType typeId="d3c23d6f-fa89-43c6-ae45-c9d14db14703" valueTypeId="b070f92f-1782-44fd-8b44-b54ba1daebf6"/>
+  </producedTypes>
+  <name>ЗаказыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5803e4c6-230b-47da-b214-56ef53d37391">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c49ccb64-de66-4764-aba2-a25d033cfda7">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e0a70b47-a7fa-4ac3-b165-d4d9c2a8f2f6">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5bcf53ce-f877-42cf-a1a2-075fb6bd4cd7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7b93c5c1-039d-4f67-bee9-f403f7e48c6c">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

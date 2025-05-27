@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c9be040-1cab-4b54-9d67-d8159a10dfcf">
+  <producedTypes>
+    <objectType typeId="a67efac3-9114-4c51-b622-d5d5f4ec6b92" valueTypeId="a802c35a-6ce1-4ce6-9b35-8cacaf5328ee"/>
+    <refType typeId="90bde5e6-db59-492f-8d01-117bc8a8296b" valueTypeId="df8ee5ef-51aa-49fd-814b-c75d0ccf6e25"/>
+    <selectionType typeId="fac74334-7258-4382-9c65-6e474b2fc79c" valueTypeId="5a9b51e3-0204-4010-90ee-456c54b7d507"/>
+    <listType typeId="81ef4a59-53dc-4ff5-b15d-c50973be7e23" valueTypeId="c41ba11c-6d2b-4664-8455-dd2026f7c207"/>
+    <managerType typeId="1c417c41-adf7-4a9d-bb33-62c4c9902e2b" valueTypeId="8be15edc-565b-4289-aa1a-9c75d438f687"/>
+  </producedTypes>
+  <name>ТехнологическиеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологические операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТехнологическиеОперации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТехнологическиеОперации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

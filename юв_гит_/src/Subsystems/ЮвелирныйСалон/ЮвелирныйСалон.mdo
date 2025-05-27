@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00fd38c4-5560-4164-b721-b9969e73b64a">
+  <name>ЮвелирныйСалон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ювелирный салон</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЮвелирныйСалон</picture>
+  </picture>
+  <content>Document.ЗаказКлиента</content>
+  <content>Enum.СостояниеЗаказов</content>
+  <content>CommonModule.РасчетСуммыСтроки</content>
+  <content>CommonForm.ФормаПодбораИзделий</content>
+  <content>DataProcessor.ЗаказыНаПроизводство</content>
+</mdclass:Subsystem>

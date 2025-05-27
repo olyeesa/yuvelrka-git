@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25bc80c2-312a-4b83-a465-99e9789a03b3">
+  <producedTypes>
+    <selectionType typeId="54d4c2b4-0d37-45c9-99e3-af74dda7a755" valueTypeId="d512d3b3-fa5a-4d17-8b7b-4e1cf5fb7a2e"/>
+    <listType typeId="28b958f0-eca3-4cea-ab4b-3ea73bd9e490" valueTypeId="8d942ea2-ffb2-4e17-bf00-e3a47896109a"/>
+    <managerType typeId="60bbb68f-9534-48f1-8956-26ad082c8c95" valueTypeId="ecff0ba1-9f31-4b70-ad94-e2b49fb665cb"/>
+    <recordSetType typeId="b95d3972-f3d5-4224-948d-c56f95bd046d" valueTypeId="7bdd34ad-102f-4dcf-86e6-34b305a3a7f5"/>
+    <recordKeyType typeId="6de7ae97-c0ee-4a1c-85ca-2471c9e9f53b" valueTypeId="fbafbf1f-fe73-4995-b6a6-2aae386afa19"/>
+    <recordType typeId="5654e822-5169-46b6-bd69-e7f339c254d4" valueTypeId="247d1001-6805-4f08-ae11-21ae6cc5468a"/>
+    <recordManagerType typeId="639b5495-f74a-4afd-aeaf-7893c4b78892" valueTypeId="ceb63b89-071b-4efc-bbae-ed67968e7a5e"/>
+  </producedTypes>
+  <name>Прайслист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайслист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="469ab5e2-042c-487a-94f0-cdd278bc0867">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8249a66a-7dd7-4560-a66c-ea735b62e12a">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыНоменклатуры.EnumValue.ГотовоеИзделие</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e755b68d-8b84-44a6-8aa7-bb738f31bff6">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Спецификации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.Прайслист.Dimension.Изделие</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

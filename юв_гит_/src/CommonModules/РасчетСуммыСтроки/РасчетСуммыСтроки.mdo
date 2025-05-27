@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ea2fbab-e092-4d21-8430-c03ac8726e99">
+  <name>РасчетСуммыСтроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет суммы строки</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

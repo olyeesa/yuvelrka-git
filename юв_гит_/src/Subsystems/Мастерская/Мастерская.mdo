@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b405f6-1b2b-471d-969d-becef09a5962">
+  <name>Мастерская</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастерская</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Мастерская</picture>
+  </picture>
+  <content>Enum.СостояниеЗаказов</content>
+  <content>CommonModule.РасчетСуммыСтроки</content>
+  <content>Document.Реализация</content>
+  <content>Document.ЗаказВМастерскую</content>
+  <content>DataProcessor.ЗаказыНаПроизводство</content>
+  <content>Document.Производство</content>
+  <content>AccumulationRegister.ПроизводствоИзделий</content>
+  <content>DataProcessor.СозданиеДокументовРеализации</content>
+  <content>Report.РейтингИзделий</content>
+</mdclass:Subsystem>
